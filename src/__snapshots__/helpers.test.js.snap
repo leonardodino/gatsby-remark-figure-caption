@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createElement renders custom component 1`] = `
+blockquote[9]
+├─ paragraph[1]
+│  └─ text: "wat"
+├─ image
+├─ image [url="http://"]
+├─ paragraph[1]
+│  └─ text: "b"
+├─ paragraph[1]
+│  └─ text: "a"
+├─ paragraph[1]
+│  └─ text: "t"
+├─ paragraph[1]
+│  └─ text: "m"
+├─ paragraph[1]
+│  └─ text: "a"
+└─ paragraph[1]
+   └─ text: "n"
+`;

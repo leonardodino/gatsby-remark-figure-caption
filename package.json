@@ -1,0 +1,92 @@
+{
+  "name": "gatsby-remark-figure-caption",
+  "description": "transform markdown image to figure with caption element",
+  "homepage": "https://github.com/leonardodino/gatsby-remark-figure-caption",
+  "version": "2.0.0-alpha.0",
+  "author": "Leonardo Dino",
+  "keywords": [
+    "gatsby",
+    "image",
+    "caption",
+    "markdown",
+    "remark",
+    "gatsby-plugin",
+    "remark"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "gatsby": "^2.0.0",
+    "gatsby-transformer-remark": "^2.0.0"
+  },
+  "repository": "https://github.com/leonardodino/gatsby-remark-figure-caption",
+  "scripts": {
+    "build": "babel src --out-dir dist --ignore '**/*.test.js' -s",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "yarn build -w",
+    "lint": "eslint src fixtures ",
+    "jest": "jest",
+    "test": "npm-run-all -s lint jest",
+    "test:coverage": "jest --coverage",
+    "test:update": "jest --updateSnapshot",
+    "test:watch": "jest --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/leonardodino/gatsby-remark-figure-caption/issues"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "array.prototype.flatmap": "^1.2.1",
+    "unist-util-visit": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "cross-env": "^5.1.4",
+    "eslint": "^5.6.1",
+    "eslint-plugin-jest": "^21.23.0",
+    "eslint-plugin-react": "^7.11.1",
+    "hast-util-assert": "^1.0.1",
+    "hast-util-select": "^2.1.0",
+    "husky": "^1.0.1",
+    "jest": "^23.5.0",
+    "jest-cli": "^23.5.0",
+    "mdast-util-assert": "^1.0.2",
+    "mdast-util-to-hast": "^3.0.2",
+    "npm-run-all": "4.1.3",
+    "remark": "^9.0.0",
+    "unist-util-find": "^1.0.1",
+    "unist-util-inspect": "^4.1.3",
+    "unist-util-remove-position": "^1.1.2"
+  },
+  "jest": {
+    "verbose": true,
+    "coveragePathIgnorePatterns": [
+      "fixtures"
+    ],
+    "testPathIgnorePatterns": [
+      "/coverage/",
+      "/dist/",
+      "/node_modules/"
+    ],
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "collectCoverage": false,
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "html"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  }
+}

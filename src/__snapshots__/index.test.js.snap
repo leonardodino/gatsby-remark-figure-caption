@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gatsby-remark-figure-caption snapshot: hast_basic 1`] = `
+root[5]
+├─ element[3] [tagName="p"]
+│  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  ├─ text: "\\n"
+│  └─ element[2] [tagName="figure"]
+│     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+│     └─ element[1] [tagName="figcaption"]
+│        └─ text: "alt description"
+├─ text: "\\n"
+├─ element[3] [tagName="blockquote"]
+│  ├─ text: "\\n"
+│  ├─ element[9] [tagName="p"]
+│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  │  ├─ text: "\\n"
+│  │  ├─ element[2] [tagName="figure"]
+│  │  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+│  │  │  └─ element[1] [tagName="figcaption"]
+│  │  │     └─ text: "alt description"
+│  │  ├─ text: "\\n"
+│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  │  ├─ text: " "
+│  │  ├─ element[2] [tagName="figure"]
+│  │  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+│  │  │  └─ element[1] [tagName="figcaption"]
+│  │  │     └─ text: "alt description"
+│  │  ├─ text: "\\n"
+│  │  └─ element[1] [tagName="code"]
+│  │     └─ text: "![](https://example.com/image-without-alt.jpg) ![alt description](https://example.com/image.jpg)"
+│  └─ text: "\\n"
+├─ text: "\\n"
+└─ element[1] [tagName="pre"]
+   └─ element[1] [tagName="code"][properties={"className":["language-markdown"]}]
+      └─ text: "![](https://example.com/image-without-alt.jpg)\\n![alt description](https://example.com/image.jpg)\\n> ![](https://example.com/image-without-alt.jpg)\\n> ![alt description](https://example.com/image.jpg)\\n"
+`;
+
+exports[`gatsby-remark-figure-caption snapshot: hast_basic 2`] = `
+root[13]
+├─ element[1] [tagName="p"]
+│  └─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+├─ text: "\\n"
+├─ element[1] [tagName="p"]
+│  └─ element[2] [tagName="figure"]
+│     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+│     └─ element[1] [tagName="figcaption"]
+│        └─ text: "alt description"
+├─ text: "\\n"
+├─ element[3] [tagName="blockquote"]
+│  ├─ text: "\\n"
+│  ├─ element[1] [tagName="p"]
+│  │  └─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  └─ text: "\\n"
+├─ text: "\\n"
+├─ element[3] [tagName="blockquote"]
+│  ├─ text: "\\n"
+│  ├─ element[1] [tagName="p"]
+│  │  └─ element[2] [tagName="figure"]
+│  │     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+│  │     └─ element[1] [tagName="figcaption"]
+│  │        └─ text: "alt description"
+│  └─ text: "\\n"
+├─ text: "\\n"
+├─ element[4] [tagName="p"]
+│  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  ├─ text: " "
+│  ├─ element[2] [tagName="figure"]
+│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+│  │  └─ element[1] [tagName="figcaption"]
+│  │     └─ text: "alt description"
+│  └─ text: " "
+├─ text: "\\n"
+├─ element[1] [tagName="p"]
+│  └─ element[1] [tagName="code"]
+│     └─ text: "![](https://example.com/image-without-alt.jpg) ![alt description](https://example.com/image.jpg)"
+├─ text: "\\n"
+└─ element[1] [tagName="pre"]
+   └─ element[1] [tagName="code"][properties={"className":["language-markdown"]}]
+      └─ text: "![](https://example.com/image-without-alt.jpg)\\n\\n![alt description](https://example.com/image.jpg)\\n\\n> ![](https://example.com/image-without-alt.jpg)\\n\\n> ![alt description](https://example.com/image.jpg)\\n"
+`;
+
+exports[`gatsby-remark-figure-caption snapshot: hast_basic 3`] = `
+root[1]
+└─ element[5] [tagName="p"]
+   ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+   ├─ text: " "
+   ├─ element[2] [tagName="figure"]
+   │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+   │  └─ element[1] [tagName="figcaption"]
+   │     └─ text: "alt description"
+   ├─ text: "  "
+   └─ element[1] [tagName="code"]
+      └─ text: "![](https://example.com/image-without-alt.jpg) ![alt description](https://example.com/image.jpg)"
+`;
+
+exports[`gatsby-remark-figure-caption snapshot: hast_class 1`] = `
+root[5]
+├─ element[3] [tagName="p"]
+│  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  ├─ text: "\\n"
+│  └─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
+│     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+│     └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
+│        └─ text: "alt description"
+├─ text: "\\n"
+├─ element[3] [tagName="blockquote"]
+│  ├─ text: "\\n"
+│  ├─ element[9] [tagName="p"]
+│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  │  ├─ text: "\\n"
+│  │  ├─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
+│  │  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+│  │  │  └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
+│  │  │     └─ text: "alt description"
+│  │  ├─ text: "\\n"
+│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  │  ├─ text: " "
+│  │  ├─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
+│  │  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+│  │  │  └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
+│  │  │     └─ text: "alt description"
+│  │  ├─ text: "\\n"
+│  │  └─ element[1] [tagName="code"]
+│  │     └─ text: "![](https://example.com/image-without-alt.jpg) ![alt description](https://example.com/image.jpg)"
+│  └─ text: "\\n"
+├─ text: "\\n"
+└─ element[1] [tagName="pre"]
+   └─ element[1] [tagName="code"][properties={"className":["language-markdown"]}]
+      └─ text: "![](https://example.com/image-without-alt.jpg)\\n![alt description](https://example.com/image.jpg)\\n> ![](https://example.com/image-without-alt.jpg)\\n> ![alt description](https://example.com/image.jpg)\\n"
+`;
+
+exports[`gatsby-remark-figure-caption snapshot: hast_class 2`] = `
+root[13]
+├─ element[1] [tagName="p"]
+│  └─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+├─ text: "\\n"
+├─ element[1] [tagName="p"]
+│  └─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
+│     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+│     └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
+│        └─ text: "alt description"
+├─ text: "\\n"
+├─ element[3] [tagName="blockquote"]
+│  ├─ text: "\\n"
+│  ├─ element[1] [tagName="p"]
+│  │  └─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  └─ text: "\\n"
+├─ text: "\\n"
+├─ element[3] [tagName="blockquote"]
+│  ├─ text: "\\n"
+│  ├─ element[1] [tagName="p"]
+│  │  └─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
+│  │     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+│  │     └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
+│  │        └─ text: "alt description"
+│  └─ text: "\\n"
+├─ text: "\\n"
+├─ element[4] [tagName="p"]
+│  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  ├─ text: " "
+│  ├─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
+│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+│  │  └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
+│  │     └─ text: "alt description"
+│  └─ text: " "
+├─ text: "\\n"
+├─ element[1] [tagName="p"]
+│  └─ element[1] [tagName="code"]
+│     └─ text: "![](https://example.com/image-without-alt.jpg) ![alt description](https://example.com/image.jpg)"
+├─ text: "\\n"
+└─ element[1] [tagName="pre"]
+   └─ element[1] [tagName="code"][properties={"className":["language-markdown"]}]
+      └─ text: "![](https://example.com/image-without-alt.jpg)\\n\\n![alt description](https://example.com/image.jpg)\\n\\n> ![](https://example.com/image-without-alt.jpg)\\n\\n> ![alt description](https://example.com/image.jpg)\\n"
+`;
+
+exports[`gatsby-remark-figure-caption snapshot: hast_class 3`] = `
+root[1]
+└─ element[5] [tagName="p"]
+   ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+   ├─ text: " "
+   ├─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
+   │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+   │  └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
+   │     └─ text: "alt description"
+   ├─ text: "  "
+   └─ element[1] [tagName="code"]
+      └─ text: "![](https://example.com/image-without-alt.jpg) ![alt description](https://example.com/image.jpg)"
+`;
+
+exports[`gatsby-remark-figure-caption snapshot: mdast_basic 1`] = `
+root[3]
+├─ paragraph[3]
+│  ├─ image [url="https://example.com/image-without-alt.jpg"]
+│  ├─ text: "\\n"
+│  └─ unknown[2] [data={"hName":"figure"}]
+│     ├─ image [url="https://example.com/image.jpg"]
+│     └─ paragraph[1] [data={"hName":"figcaption"}]
+│        └─ text: "alt description"
+├─ blockquote[1]
+│  └─ paragraph[9]
+│     ├─ image [url="https://example.com/image-without-alt.jpg"]
+│     ├─ text: "\\n"
+│     ├─ unknown[2] [data={"hName":"figure"}]
+│     │  ├─ image [url="https://example.com/image.jpg"]
+│     │  └─ paragraph[1] [data={"hName":"figcaption"}]
+│     │     └─ text: "alt description"
+│     ├─ text: "\\n"
+│     ├─ image [url="https://example.com/image-without-alt.jpg"]
+│     ├─ text: " "
+│     ├─ unknown[2] [data={"hName":"figure"}]
+│     │  ├─ image [url="https://example.com/image.jpg"]
+│     │  └─ paragraph[1] [data={"hName":"figcaption"}]
+│     │     └─ text: "alt description"
+│     ├─ text: " \\n"
+│     └─ inlineCode: "![](https://example.com/image-without-alt.jpg) ![alt description](https://example.com/image.jpg)"
+└─ code: "![](https://example.com/image-without-alt.jpg)\\n![alt description](https://example.com/image.jpg)\\n> ![](https://example.com/image-without-alt.jpg)\\n> ![alt description](https://example.com/image.jpg)" [lang="markdown"]
+`;
+
+exports[`gatsby-remark-figure-caption snapshot: mdast_basic 2`] = `
+root[7]
+├─ paragraph[1]
+│  └─ image [url="https://example.com/image-without-alt.jpg"]
+├─ paragraph[1]
+│  └─ unknown[2] [data={"hName":"figure"}]
+│     ├─ image [url="https://example.com/image.jpg"]
+│     └─ paragraph[1] [data={"hName":"figcaption"}]
+│        └─ text: "alt description"
+├─ blockquote[1]
+│  └─ paragraph[1]
+│     └─ image [url="https://example.com/image-without-alt.jpg"]
+├─ blockquote[1]
+│  └─ paragraph[1]
+│     └─ unknown[2] [data={"hName":"figure"}]
+│        ├─ image [url="https://example.com/image.jpg"]
+│        └─ paragraph[1] [data={"hName":"figcaption"}]
+│           └─ text: "alt description"
+├─ paragraph[4]
+│  ├─ image [url="https://example.com/image-without-alt.jpg"]
+│  ├─ text: " "
+│  ├─ unknown[2] [data={"hName":"figure"}]
+│  │  ├─ image [url="https://example.com/image.jpg"]
+│  │  └─ paragraph[1] [data={"hName":"figcaption"}]
+│  │     └─ text: "alt description"
+│  └─ text: " "
+├─ paragraph[1]
+│  └─ inlineCode: "![](https://example.com/image-without-alt.jpg) ![alt description](https://example.com/image.jpg)"
+└─ code: "![](https://example.com/image-without-alt.jpg)\\n\\n![alt description](https://example.com/image.jpg)\\n\\n> ![](https://example.com/image-without-alt.jpg)\\n\\n> ![alt description](https://example.com/image.jpg)" [lang="markdown"]
+`;
+
+exports[`gatsby-remark-figure-caption snapshot: mdast_basic 3`] = `
+root[1]
+└─ paragraph[5]
+   ├─ image [url="https://example.com/image-without-alt.jpg"]
+   ├─ text: " "
+   ├─ unknown[2] [data={"hName":"figure"}]
+   │  ├─ image [url="https://example.com/image.jpg"]
+   │  └─ paragraph[1] [data={"hName":"figcaption"}]
+   │     └─ text: "alt description"
+   ├─ text: "  "
+   └─ inlineCode: "![](https://example.com/image-without-alt.jpg) ![alt description](https://example.com/image.jpg)"
+`;
+
+exports[`gatsby-remark-figure-caption snapshot: mdast_class 1`] = `
+root[3]
+├─ paragraph[3]
+│  ├─ image [url="https://example.com/image-without-alt.jpg"]
+│  ├─ text: "\\n"
+│  └─ unknown[2] [data={"hName":"figure"}]
+│     ├─ image [url="https://example.com/image.jpg"]
+│     └─ paragraph[1] [data={"hName":"figcaption"}]
+│        └─ text: "alt description"
+├─ blockquote[1]
+│  └─ paragraph[9]
+│     ├─ image [url="https://example.com/image-without-alt.jpg"]
+│     ├─ text: "\\n"
+│     ├─ unknown[2] [data={"hName":"figure"}]
+│     │  ├─ image [url="https://example.com/image.jpg"]
+│     │  └─ paragraph[1] [data={"hName":"figcaption"}]
+│     │     └─ text: "alt description"
+│     ├─ text: "\\n"
+│     ├─ image [url="https://example.com/image-without-alt.jpg"]
+│     ├─ text: " "
+│     ├─ unknown[2] [data={"hName":"figure"}]
+│     │  ├─ image [url="https://example.com/image.jpg"]
+│     │  └─ paragraph[1] [data={"hName":"figcaption"}]
+│     │     └─ text: "alt description"
+│     ├─ text: " \\n"
+│     └─ inlineCode: "![](https://example.com/image-without-alt.jpg) ![alt description](https://example.com/image.jpg)"
+└─ code: "![](https://example.com/image-without-alt.jpg)\\n![alt description](https://example.com/image.jpg)\\n> ![](https://example.com/image-without-alt.jpg)\\n> ![alt description](https://example.com/image.jpg)" [lang="markdown"]
+`;
+
+exports[`gatsby-remark-figure-caption snapshot: mdast_class 2`] = `
+root[7]
+├─ paragraph[1]
+│  └─ image [url="https://example.com/image-without-alt.jpg"]
+├─ paragraph[1]
+│  └─ unknown[2] [data={"hName":"figure"}]
+│     ├─ image [url="https://example.com/image.jpg"]
+│     └─ paragraph[1] [data={"hName":"figcaption"}]
+│        └─ text: "alt description"
+├─ blockquote[1]
+│  └─ paragraph[1]
+│     └─ image [url="https://example.com/image-without-alt.jpg"]
+├─ blockquote[1]
+│  └─ paragraph[1]
+│     └─ unknown[2] [data={"hName":"figure"}]
+│        ├─ image [url="https://example.com/image.jpg"]
+│        └─ paragraph[1] [data={"hName":"figcaption"}]
+│           └─ text: "alt description"
+├─ paragraph[4]
+│  ├─ image [url="https://example.com/image-without-alt.jpg"]
+│  ├─ text: " "
+│  ├─ unknown[2] [data={"hName":"figure"}]
+│  │  ├─ image [url="https://example.com/image.jpg"]
+│  │  └─ paragraph[1] [data={"hName":"figcaption"}]
+│  │     └─ text: "alt description"
+│  └─ text: " "
+├─ paragraph[1]
+│  └─ inlineCode: "![](https://example.com/image-without-alt.jpg) ![alt description](https://example.com/image.jpg)"
+└─ code: "![](https://example.com/image-without-alt.jpg)\\n\\n![alt description](https://example.com/image.jpg)\\n\\n> ![](https://example.com/image-without-alt.jpg)\\n\\n> ![alt description](https://example.com/image.jpg)" [lang="markdown"]
+`;
+
+exports[`gatsby-remark-figure-caption snapshot: mdast_class 3`] = `
+root[1]
+└─ paragraph[5]
+   ├─ image [url="https://example.com/image-without-alt.jpg"]
+   ├─ text: " "
+   ├─ unknown[2] [data={"hName":"figure"}]
+   │  ├─ image [url="https://example.com/image.jpg"]
+   │  └─ paragraph[1] [data={"hName":"figcaption"}]
+   │     └─ text: "alt description"
+   ├─ text: "  "
+   └─ inlineCode: "![](https://example.com/image-without-alt.jpg) ![alt description](https://example.com/image.jpg)"
+`;

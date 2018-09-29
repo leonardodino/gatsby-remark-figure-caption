@@ -1,0 +1,21 @@
+{
+  "env": {"node": true},
+  "extends": ["eslint:recommended"],
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "rules": {"react/jsx-uses-react": 1, "react/jsx-uses-vars": 1},
+  "overrides": [
+    {
+      "files": ["**/*.test.js"],
+      "env": {"jest": true},
+      "plugins": ["jest"],
+      "rules": {
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error"
+      }
+    }
+  ]
+}
