@@ -5,9 +5,7 @@ const {createElement, replace} = require('./helpers')
 
 module.exports = ({markdownAST}, options = {}) => {
 	visit(markdownAST, 'image', node => {
-		if(String(node.alt) === 'null') delete node.alt
-		if(String(node.alt) === 'undefined') delete node.alt
-		if(!node.alt) return delete node.alt
+		if(!node.alt) return;
 
 		replace(node).with(
 			<unknown tagName='figure' className={options.figureClassName}>

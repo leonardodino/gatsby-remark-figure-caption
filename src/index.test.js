@@ -93,5 +93,4 @@ describe(name, () => {
 		expect(select(`img.${imageClassName}`, hast)).toHaveLength(count)
 		expect(select(`figcaption.${captionClassName}`, hast)).toHaveLength(count)
 	})
-
 })

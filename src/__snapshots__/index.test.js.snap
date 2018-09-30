@@ -3,27 +3,27 @@
 exports[`gatsby-remark-figure-caption snapshot: hast_basic 1`] = `
 root[5]
 ├─ element[3] [tagName="p"]
-│  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
 │  ├─ text: "\\n"
 │  └─ element[2] [tagName="figure"]
-│     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+│     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null}]
 │     └─ element[1] [tagName="figcaption"]
 │        └─ text: "alt description"
 ├─ text: "\\n"
 ├─ element[3] [tagName="blockquote"]
 │  ├─ text: "\\n"
 │  ├─ element[9] [tagName="p"]
-│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
 │  │  ├─ text: "\\n"
 │  │  ├─ element[2] [tagName="figure"]
-│  │  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+│  │  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null}]
 │  │  │  └─ element[1] [tagName="figcaption"]
 │  │  │     └─ text: "alt description"
 │  │  ├─ text: "\\n"
-│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
 │  │  ├─ text: " "
 │  │  ├─ element[2] [tagName="figure"]
-│  │  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+│  │  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null}]
 │  │  │  └─ element[1] [tagName="figcaption"]
 │  │  │     └─ text: "alt description"
 │  │  ├─ text: "\\n"
@@ -39,34 +39,34 @@ root[5]
 exports[`gatsby-remark-figure-caption snapshot: hast_basic 2`] = `
 root[13]
 ├─ element[1] [tagName="p"]
-│  └─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  └─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
 ├─ text: "\\n"
 ├─ element[1] [tagName="p"]
 │  └─ element[2] [tagName="figure"]
-│     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+│     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null}]
 │     └─ element[1] [tagName="figcaption"]
 │        └─ text: "alt description"
 ├─ text: "\\n"
 ├─ element[3] [tagName="blockquote"]
 │  ├─ text: "\\n"
 │  ├─ element[1] [tagName="p"]
-│  │  └─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  │  └─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
 │  └─ text: "\\n"
 ├─ text: "\\n"
 ├─ element[3] [tagName="blockquote"]
 │  ├─ text: "\\n"
 │  ├─ element[1] [tagName="p"]
 │  │  └─ element[2] [tagName="figure"]
-│  │     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+│  │     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null}]
 │  │     └─ element[1] [tagName="figcaption"]
 │  │        └─ text: "alt description"
 │  └─ text: "\\n"
 ├─ text: "\\n"
 ├─ element[4] [tagName="p"]
-│  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
 │  ├─ text: " "
 │  ├─ element[2] [tagName="figure"]
-│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null}]
 │  │  └─ element[1] [tagName="figcaption"]
 │  │     └─ text: "alt description"
 │  └─ text: " "
@@ -83,10 +83,10 @@ root[13]
 exports[`gatsby-remark-figure-caption snapshot: hast_basic 3`] = `
 root[1]
 └─ element[5] [tagName="p"]
-   ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+   ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
    ├─ text: " "
    ├─ element[2] [tagName="figure"]
-   │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg"}]
+   │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null}]
    │  └─ element[1] [tagName="figcaption"]
    │     └─ text: "alt description"
    ├─ text: "  "
@@ -97,27 +97,27 @@ root[1]
 exports[`gatsby-remark-figure-caption snapshot: hast_class 1`] = `
 root[5]
 ├─ element[3] [tagName="p"]
-│  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
 │  ├─ text: "\\n"
 │  └─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
-│     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+│     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null,"className":["lqip"]}]
 │     └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
 │        └─ text: "alt description"
 ├─ text: "\\n"
 ├─ element[3] [tagName="blockquote"]
 │  ├─ text: "\\n"
 │  ├─ element[9] [tagName="p"]
-│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
 │  │  ├─ text: "\\n"
 │  │  ├─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
-│  │  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+│  │  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null,"className":["lqip"]}]
 │  │  │  └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
 │  │  │     └─ text: "alt description"
 │  │  ├─ text: "\\n"
-│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
 │  │  ├─ text: " "
 │  │  ├─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
-│  │  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+│  │  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null,"className":["lqip"]}]
 │  │  │  └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
 │  │  │     └─ text: "alt description"
 │  │  ├─ text: "\\n"
@@ -133,34 +133,34 @@ root[5]
 exports[`gatsby-remark-figure-caption snapshot: hast_class 2`] = `
 root[13]
 ├─ element[1] [tagName="p"]
-│  └─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  └─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
 ├─ text: "\\n"
 ├─ element[1] [tagName="p"]
 │  └─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
-│     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+│     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null,"className":["lqip"]}]
 │     └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
 │        └─ text: "alt description"
 ├─ text: "\\n"
 ├─ element[3] [tagName="blockquote"]
 │  ├─ text: "\\n"
 │  ├─ element[1] [tagName="p"]
-│  │  └─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  │  └─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
 │  └─ text: "\\n"
 ├─ text: "\\n"
 ├─ element[3] [tagName="blockquote"]
 │  ├─ text: "\\n"
 │  ├─ element[1] [tagName="p"]
 │  │  └─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
-│  │     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+│  │     ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null,"className":["lqip"]}]
 │  │     └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
 │  │        └─ text: "alt description"
 │  └─ text: "\\n"
 ├─ text: "\\n"
 ├─ element[4] [tagName="p"]
-│  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+│  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
 │  ├─ text: " "
 │  ├─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
-│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+│  │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null,"className":["lqip"]}]
 │  │  └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
 │  │     └─ text: "alt description"
 │  └─ text: " "
@@ -177,10 +177,10 @@ root[13]
 exports[`gatsby-remark-figure-caption snapshot: hast_class 3`] = `
 root[1]
 └─ element[5] [tagName="p"]
-   ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg"}]
+   ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image-without-alt.jpg","alt":null}]
    ├─ text: " "
    ├─ element[2] [tagName="figure"][properties={"className":["wrapper"]}]
-   │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","className":["lqip"]}]
+   │  ├─ element[0] [tagName="img"][properties={"src":"https://example.com/image.jpg","alt":null,"className":["lqip"]}]
    │  └─ element[1] [tagName="figcaption"][properties={"className":["text"]}]
    │     └─ text: "alt description"
    ├─ text: "  "
