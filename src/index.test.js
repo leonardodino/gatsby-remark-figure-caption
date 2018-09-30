@@ -1,3 +1,4 @@
+require('object.entries/shim')() // gatsby supports node v6
 const Remark = require('remark')
 const toHAST = require('mdast-util-to-hast')
 const find   = require('unist-util-find')
@@ -10,7 +11,7 @@ const inputs = require('../fixtures/markdown')
 const {name} = require('../package.json')
 const plugin = require('.')
 const remark = new Remark().data('settings', {
-  commonmark: true, footnotes: true, pedantic: true,
+	commonmark: true, footnotes: true, pedantic: true,
 })
 
 const options = {
