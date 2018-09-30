@@ -21,7 +21,7 @@
   },
   "repository": "https://github.com/leonardodino/gatsby-remark-figure-caption",
   "scripts": {
-    "build": "babel src --out-dir dist --ignore '**/*.test.js' -s",
+    "build": "babel src --out-dir . --ignore '**/*.test.js' -s",
     "prepare": "cross-env NODE_ENV=production npm run build",
     "watch": "yarn build -w",
     "lint": "eslint src fixtures ",
