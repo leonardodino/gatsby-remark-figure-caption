@@ -2,7 +2,7 @@
   "name": "gatsby-remark-figure-caption",
   "description": "transform markdown image to figure with caption element",
   "homepage": "https://github.com/leonardodino/gatsby-remark-figure-caption",
-  "version": "2.0.0-alpha.1",
+  "version": "2.0.0-alpha.2",
   "author": "Leonardo Dino",
   "keywords": [
     "gatsby",
