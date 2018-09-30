@@ -2,9 +2,12 @@ require('array.prototype.flatmap/auto')
 const omit = require('@babel/runtime/helpers/objectWithoutPropertiesLoose')
 const id = x => x
 const render = value => {
+	if(value === null) return null
+
 	const jsType = typeof value
-	if(jsType === 'string') return createElement('text', {value})
+	if(jsType === 'undefined') return null
 	if(jsType === 'boolean') return null
+	if(jsType === 'string') return createElement('text', {value})
 	if(Array.isArray(value)) return value
 	if(typeof value.type === 'function'){
 		return render(value.type({...value, type: null}))

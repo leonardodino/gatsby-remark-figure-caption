@@ -14,6 +14,7 @@ const KitchenSink = ({name = '', ...props}) => (
 		<paragraph>wat</paragraph>
 		<image className={''}/>
 		{false && 'wont render'}{0}
+		{undefined}{null}
 		<image url='http://'/>
 		{name.split('').map(letter => <paragraph>{letter}</paragraph>)}
 	</blockquote>
