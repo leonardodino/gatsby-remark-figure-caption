@@ -49,12 +49,29 @@ plugins: [
 | `imageClassName` | `''` | class for the wrapped `img` element |
 | `captionClassName` | `''` | class for the wrapped `figcaption` element |
 
+## Unified users
+
+This plugin is designed to work with [`remark`](https://github.com/gnab/remark), but [unified](https://github.com/unifiedjs/unified) users can pass the following plugin:
+
+```javascript
+const figureCaptionTransformer = require('gatsby-remark-figure-caption');
+
+const unifiedPlugin = () => markdownAST => figureCaptionTransformer({ markdownAST });
+```
+
+For example, if you're using [`mdx`](https://github.com/mdx-js/mdx), you can pass the following options:
+
+```javascript
+{
+  mdPlugins: [unifiedPlugin]
+}
+```
 
 ## Disclaimers
 
-**only tested with `gatsby v2`**, it may work on `v1`.
+**Only tested with `Gatsby v2`**, it may work on `v1`.
 
-**not really a _good_ thing `a11y`-wise:**
+**Not really a _good_ thing `a11y`-wise:**
 - images should have a descriptive `alt`, that can replace it.
 - created for working around cripled `markdown` tools.
 - [there are better ways to describe an image.](https://github.github.com/gfm/#image-description)
